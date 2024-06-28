@@ -1,7 +1,7 @@
 # weather_advice.py
 
 # Prompt User for Weather Input
-weather = input("What's the weather like today? (sunny/rainy/cold): ").strip().lower()
+weather = input("What's the weather like today? (sunny/rainy/cold): ").lower()
 
 # Provide Clothing Recommendations
 if weather == "sunny":
